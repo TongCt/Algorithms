@@ -1,0 +1,4 @@
+1.vector::end()
+错误观点：通过vector：：end（）能获取指向最后一个元素的指针。
+实际上，通过上面的方法获取的是指向末尾元素再下一个位置的指针。
+http://blog.csdn.net/cs_zlg/article/details/8209590
