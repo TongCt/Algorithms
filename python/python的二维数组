@@ -2,3 +2,12 @@ for example:
 matrix=[[0]*3]  matrix = [0,0,0]
 matrix=[[0]*3]*3  matrix = [[0,0,0],[0,0,0],[0,0,0]]
 if we let matrix[0][1] = 1  matrix=[[0,1,0],[0,1,0],[0,1,0]]
+
+python 建立一个动态的矩阵的化比如：
+result =[]
+result.append([i,j])
+关于矩阵的建立：比如建立一个全False的矩阵
+Pacific = [[False for i in range(n)] for i in range(m)]
+记住这里的false也行任意一个变量都行但一定要先定义比如建立一个全为零的矩阵
+先定义i=0
+Pacific = [[i for i in range(n)] for i in range(m)]
