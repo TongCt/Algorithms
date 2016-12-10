@@ -1,0 +1,4 @@
+for example:
+matrix=[[0]*3]  matrix = [0,0,0]
+matrix=[[0]*3]*3  matrix = [[0,0,0],[0,0,0],[0,0,0]]
+if we let matrix[0][1] = 1  matrix=[[0,1,0],[0,1,0],[0,1,0]]
