@@ -1,0 +1,13 @@
+Python有一个count函数。
+如果用于数组可以直接计算数组中重复的值有多少个
+用于string也可以
+
+def count(strs):
+    x='0'
+    y='1'
+    x_0=strs.count(x,0,len(strs))
+    y_1=strs.count(y,0,len(strs))
+    return x_0,y_1
+    
+    计算数组中0与1出现的次数
+    
