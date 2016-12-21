@@ -1,0 +1,10 @@
+
+range函数：
+
+range(1,5) is 1,2,3,4. Don't include 5
+range(5) is range(0,5) is 0,1,2,3,4 Don't include 5
+
+List:
+array[0,1,2,3,4,5]
+array[:2] is array[0:2] is 0,1 Don't include 2
+array[2:] is array[2:len(array)] is array[2:6] is 2,3,4,5
